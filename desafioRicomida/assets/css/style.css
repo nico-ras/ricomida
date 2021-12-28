@@ -1,0 +1,17 @@
+
+
+.carousel img {
+    height: 170px;
+    width: 233px;
+}
+
+.carousel-indicators {
+    bottom: -60px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+    height: 10px !important;
+    width: 10px;
+    border-radius: 50%;
+}
