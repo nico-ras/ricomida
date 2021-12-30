@@ -1,4 +1,11 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
 
+.navbar {
+    height: 60px;
+}
 
 .carousel img {
     height: 170px;
@@ -14,4 +21,82 @@
     height: 10px !important;
     width: 10px;
     border-radius: 50%;
+}
+
+.newsletterSect {
+    height: 30em;
+    
+}
+
+.ingDiv p {
+    margin-bottom: 0;  
+    font-size: 20px;
+}
+
+.prepDiv p {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 37px;
+}
+
+.navbar-nav {
+    font-size: 16px;
+
+}
+
+h1 , h4 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.titleDiv p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+hr {
+    height: 0px;
+    border: none;
+    border-top: 1px solid black;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.card-body p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.newsletterSect div h4 {
+    color: white;
+}
+
+.newsletterSect span {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.newsletterSect p {
+    font-size: 20px;
+    color: white;
+    background-color: #DC3545;
+}
+
+footer {
+    background-color: #373A3C;;
+}
+
+footer h5 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 37px; 
+    color: white;
 }
