@@ -3,10 +3,6 @@ body {
     font-weight: 400;
 }
 
-.navbar {
-    height: 60px;
-}
-
 .carousel img {
     height: 170px;
     width: 233px;
@@ -41,6 +37,7 @@ body {
     font-family: 'Lobster', cursive;
     font-weight: 400;
     font-size: 37px;
+    
 }
 
 .navbar-nav {
@@ -84,8 +81,8 @@ h5 {
     font-size: 30px;
 }
 
-.newsletterSect p {
-    font-size: 20px;
+.newsletterSect div p {
+    font-size: 30px;
     color: white;
     background-color: #DC3545;
 }
@@ -100,3 +97,90 @@ footer h5 {
     font-size: 37px; 
     color: white;
 }
+.sendBtn, .addBtn {
+    
+    font-size: 13px;
+}
+
+.prepDiv h3 {
+    text-decoration: underline;
+    margin-bottom: 2em;
+}
+
+.ingDiv h3 {
+    text-decoration: underline;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 400px) { 
+    h1 {
+        text-align: center;
+        font-size: 25px;
+        margin: 1em 0;
+    }
+
+    .titleDiv p {
+        text-align: center;
+        
+    }
+
+    .ingDiv h3 {
+        font-size: 16px;
+        
+        text-decoration: none;
+    }
+    
+    .prepDiv h3 {
+        font-size: 16px;
+        margin-bottom: 1em;
+        text-decoration: none;
+    }
+
+    
+
+    .ingDiv p {
+        margin-left: 1em;
+        font-size: 16px;
+    }
+    
+    .prepDiv p {
+        margin-left: 1em;
+        font-size: 16px;
+    }
+
+    h3 {
+        margin-left: 1em;
+    }
+
+    .newsletterSect h4 {
+        font-size: 30px;
+        
+    }
+
+    .newsletterSect div p {
+        font-size: 20px;
+        
+    }
+
+    .selectDiv h4 {
+        font-size: 25px;
+    }
+    
+    .card-title {
+        font-size: 17px;
+    }
+
+    .navbar-brand {
+        height: 2em;
+    }
+
+    .sendBtn, .addBtn {
+    
+        font-size: 10px;
+        width: 10em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    
+ }
